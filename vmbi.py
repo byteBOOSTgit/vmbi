@@ -1,5 +1,9 @@
 import pandas as pd
 import os
+# vmbi.py: Uses a master inventory file and checks whether the inventory was scanned by a scan result file.  
+# The resulting report indicates which scan reports the inventory item (computer) showed up in.
+# The user can determine whether a item in inventory was ever scanned or if the scanner missed it.
+
 # inventory file should be in csv format
 inventory_filename = r"absolute-path-to-inventory-file"
 scan_files_dir = r"absolute-path-to-scan-files-dir"
